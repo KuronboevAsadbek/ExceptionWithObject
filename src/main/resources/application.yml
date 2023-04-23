@@ -1,0 +1,17 @@
+server:
+  port: 2200
+
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        show_format: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test-db
+    username: test-user
+    password: 1
+
+
